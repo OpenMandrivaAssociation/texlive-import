@@ -1,3 +1,9 @@
+# revision 17361
+# category Package
+# catalog-ctan /macros/latex/contrib/import
+# catalog-date 2010-03-09 13:05:51 +0100
+# catalog-license pd
+# catalog-version 5.1
 Name:		texlive-import
 Version:	5.1
 Release:	1
@@ -41,6 +47,7 @@ load files relative to the \import-ed directory. There are also
 %{_texmfdistdir}/tex/latex/import/import.sty
 %doc %{_texmfdistdir}/doc/latex/import/import.pdf
 %doc %{_texmfdistdir}/doc/latex/import/import.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ load files relative to the \import-ed directory. There are also
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
