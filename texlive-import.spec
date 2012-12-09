@@ -48,3 +48,17 @@ load files relative to the \import-ed directory. There are also
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.1-2
++ Revision: 752736
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.1-1
++ Revision: 718714
+- texlive-import
+- texlive-import
+- texlive-import
+- texlive-import
+
