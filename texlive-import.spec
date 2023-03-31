@@ -1,6 +1,6 @@
 Name:		texlive-import
 Version:	54683
-Release:	1
+Release:	2
 Summary:	Establish input relative to a directory
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/import
