@@ -3,7 +3,7 @@ Version:	54683
 Release:	2
 Summary:	Establish input relative to a directory
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/import
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/import
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/import.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/import.doc.r%{version}.tar.xz
